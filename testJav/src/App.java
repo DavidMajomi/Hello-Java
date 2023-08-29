@@ -17,5 +17,15 @@ public class App {
         System.out.println(" The test value = " + testInputValue);
         in.close();
 
+        if(stringVal != testInputValue)
+        {
+            System.out.println(" Input value is not equal to string value");
+        }
+        else
+        {
+            System.out.println(" Input value is equal to string value");
+            
+        }
+
     }
 }
